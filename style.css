@@ -1,0 +1,125 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Nanum Gothic", serif;
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.left__container {
+  height: 100vh;
+  /* border: 1px solid red;
+  background-color: rgb(211, 208, 208); */
+  padding: 0.5rem;
+  /* flex: 0 0 80%; */
+  align-items: flex-start;
+  margin-right: 0.5rem;
+}
+
+.right__container {
+  flex: 0 0 20%;
+  /* border: 1px solid red;
+  background-color: rgb(211, 208, 208); */
+  /* height: 100vh; */
+  /* align-items: flex-end; */
+}
+/* skills */
+
+.skills {
+  /* border: 1px solid red; */
+  align-items: flex-start;
+  /* margin-left: 2rem; */
+}
+
+.skills__title,
+.education__title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0.2rem;
+}
+
+.skill__title-names {
+  display: flex;
+}
+
+.skill__list {
+  display: flex;
+  gap: 1.2rem;
+  padding-left: 1rem;
+  flex-wrap: wrap;
+}
+
+.education {
+  padding-bottom: 1rem;
+}
+
+.education__name,
+.education__college,
+.education__year {
+  padding-left: 1rem;
+}
+
+.education__year {
+  font-weight: lighter;
+}
+.coursework__list {
+  padding-left: 1rem;
+  display: flex;
+}
+
+.coursework__title {
+  padding-top: 5rem;
+  padding-bottom: 0.5rem;
+}
+
+.experience__title {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.db__desc {
+  font-weight: lighter;
+}
+
+.experience {
+  max-width: 65ch;
+}
+
+.db_prj {
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.prj__list {
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+.db {
+  padding-top: 1rem;
+}
+
+.footer {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}

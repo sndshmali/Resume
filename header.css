@@ -1,0 +1,93 @@
+/* Header */
+
+.header {
+  width: 90%;
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+.title__name {
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+.title__surname {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* contact details */
+
+.contact__details {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 2rem;
+  margin: 1rem auto;
+}
+/* Icons */
+.fa-brands.fa-linkedin {
+  color: hsl(240, 76%, 67%);
+  transition: transform 0.3s;
+}
+
+.fa-brands.fa-linkedin:hover {
+  color: hsl(240, 100%, 30%);
+  transform: translateY(-3px);
+}
+
+.fa-solid.fa-phone {
+  color: hsl(208, 100%, 60%);
+  transition: transform 0.3s;
+}
+
+.fa-solid.fa-phone:hover {
+  color: hsl(208, 100%, 30%);
+  transform: translateY(-3px);
+}
+
+.fa-regular.fa-envelope {
+  color: hsl(5, 81%, 56%);
+  transition: transform 0.3s;
+}
+
+.fa-regular.fa-envelope:hover {
+  color: hsl(5, 81%, 30%);
+  transform: translateY(-3px);
+}
+
+.fa-brands.fa-github {
+  color: hsl(0, 0%, 30%);
+  transition: transform 0.3s;
+}
+
+.fa-brands.fa-github:hover {
+  color: hsl(0, 0%, 0%);
+  transform: translateY(-3px);
+}
+
+.fa-brands.fa-stack-overflow {
+  color: hsl(16, 93%, 58%);
+  transition: transform 0.3s;
+}
+
+.fa-brands.fa-stack-overflow:hover {
+  color: hsl(16, 93%, 30%);
+  transform: translateY(-3px);
+}
+
+/* hr */
+hr {
+  border: 0.5px solid black;
+  width: 60%;
+  display: flex;
+  /* justify-content: center;
+    align-items: center; */
+  margin: 0 auto;
+}
